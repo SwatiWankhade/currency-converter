@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('/bg1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    background-color: #325fc8;
+    /* background-color: black; */
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container-currency{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.container-currency select{
+    padding: 10px;
+}
+
+.container-currency input{
+    border: 0;
+    font-size: 25px;
+    color: aliceblue;
+    background: transparent;
+    text-align: right;
+}
+#exchange-rate{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+select:focus,input:focus{
+    outline: 0;
+}
